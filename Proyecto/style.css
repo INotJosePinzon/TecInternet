@@ -1,0 +1,152 @@
+.header{
+ 
+    margin: 1px;
+    padding: 1px;
+    
+   
+    border-radius: 7pt;
+    background: linear-gradient(to bottom,#2DB8B3,#2D4D46);
+  }footer{
+    background:  linear-gradient(to bottom,#D6D63B,#B4B489) !important;
+    height: 100%;
+  }.centrado{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .inicarsesion{
+    margin: 20px;
+   padding: 20px;
+   border: 2px solid gray;
+   border-radius: 7pt;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+
+ 
+   -webkit-order: 1;
+           order: 1;
+  }
+  .formulariopago{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card img{
+ width: 100%;
+ height: 300px;
+ 
+  }
+  .card{
+    padding: 50px;
+     
+  }
+  .card img:hover{
+    border: 5px solid white;
+
+  }
+  .comentarios{
+    margin: 20px;
+   padding: 20px;
+   border: 2px solid gray;
+   border-radius: 7pt;
+
+   
+   
+   
+      -webkit-order: 1;
+           order: 1;
+  }
+  .registrarse{
+    margin: 20px;
+   padding: 20px;
+   border: 2px solid gray;
+   border-radius: 7pt;
+   text-align: center;
+   
+      -webkit-order: 1;
+           order: 1;
+  }
+
+  
+  .btn-boton{
+    background: linear-gradient(to bottom,#2DB8B3,#2D4D46)!important;
+    color: honeydew !important;
+   
+  }
+  .btn-boton-pago{
+    background: linear-gradient(to bottom,#2DB8B3,#2D4D46)!important;
+    color: honeydew !important;
+    height: 50px;
+    width: 300px;
+   
+  }
+  .btn-boton-buscar{
+    background: linear-gradient(to bottom,#D6D63B,#B4B489) !important;
+    color: honeydew !important;
+  }
+  .navbar {
+    width: auto;
+    color:  linear-gradient(to bottom,#2DB8B3,#2D4D46) !important; 
+
+  }
+  body{
+      padding: 10px;
+      margin: 5px;
+      background-color: rgb(216, 238, 238)
+      
+  }
+  .contenidoo{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 7pt;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+  
+    -webkit-order: 1;
+            order: 1;
+ 
+  }
+  #formclasificacion {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+    padding: 10px;
+  }
+  
+  #formclasificacion p {
+    text-align: center;
+  }
+  
+  #formclasificacion .label-calificacion {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  .label-calificacion {
+    color: grey;
+
+    height: 50px;
+    width: 50px;
+  }
+  
+  .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  .label-calificacion:hover,
+  .label-calificacion:hover ~ .label-calificacion {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ .label-calificacion {
+    color: orange;
+  }
+  
